@@ -1,3 +1,6 @@
+
+import csv
+
 def write_csv(filename):
     rows = [
         ["name", "age"],
@@ -9,4 +12,3 @@ def write_csv(filename):
         writer = csv.writer(f)
         writer.writerows(rows)
     print(f"CSV file '{filename}' created.")
-🐍 helper.py
