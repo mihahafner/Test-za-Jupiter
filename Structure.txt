@@ -1,0 +1,6 @@
+csv-demo-project/
+├── main.py
+├── csv_writer.py
+├── helper.py
+├── sample_output.csv      ← (Optional: pre-generated)
+└── requirements.txt
